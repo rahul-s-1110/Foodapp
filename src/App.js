@@ -1,7 +1,14 @@
+import CategoryList from "./component/categoryList";
+import FoodList from "./component/foodList";
+import HeadlineCard from "./component/headlineCard";
+import HeroComponent from "./component/heroComp";
+import Navbar from "./component/navbar";
+import HomePage from "./pages/homePage";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <HomePage />
+    </div>
+  );
 }
